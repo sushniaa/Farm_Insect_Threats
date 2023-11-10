@@ -1,0 +1,167 @@
+.bg-image {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.img1 {
+    background-image: url('/static/images/img1.jpg');
+    background-position: center top; /* Center horizontally, align to the top */
+    background-size: 20%;
+}
+
+.img2 {
+    background-image: url('/static/images/img2.jpg');
+    background-position: center top; /* Center both horizontally and vertically */
+    background-size: 20%;
+}
+
+.img3 {
+    background-image: url('/static/images/img3.jpg');
+    background-position: center bottom; /* Center both horizontally and align to the bottom */
+}
+
+.img4 {
+    background-image: url('/static/images/img4.jpg');
+    background-position: center top; /* Center both horizontally and align to the top */
+}
+
+.img5 {
+    background-image: url('/static/images/img5.jpg');
+    background-position: center bottom; /* Center horizontally, align to the bottom */
+}
+
+.img6 {
+    background-image: url('/static/images/img6.png');
+    background-position: center bottom; /* Center both horizontally and vertically */
+}
+
+.img7 {
+    background-image: url('/static/images/img7.jpeg');
+    background-position: center bottom; /* Center both horizontally and vertically */
+}
+
+
+/* Style the header with a background color and text color */
+.navbar {
+    background-color: #007BFF;
+    color: #ffffff65;
+}
+
+/* Center the application title in the header */
+.navbar-brand {
+    background-color: #f9faf878;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Style the jumbotron on the home page */
+.jumbotron {
+    background-color: #fafaf8;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style the "LET'S START" button */
+.btn-primary {
+    background-color: #5C9A40;
+    border: none;
+    padding: 10px 20px;
+}
+.mt-custom {
+    margin-top: 3rem; /* Adjust the value as needed */
+  }
+
+/* Custom styles for the custom-file input */
+.custom-file-input:lang(en)::before {
+    content: "Browse";
+}
+.custom-file-label {
+    overflow: hidden;
+}
+
+/* Add more custom styles for your project */
+
+/* Example styles for the About section */
+#about {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+/* Add this CSS to your style.css or a new CSS file */
+.jumbotron {
+    position: fixed;
+    padding: 65px;
+    top: 50%; /* You can adjust the top value to position it as needed */
+    left: 50%; /* You can adjust the left value to position it as needed */
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: fixed;
+    top: 80%; /* You can adjust the top value to position it as needed */
+    left: 50%; /* You can adjust the left value to position it as needed */
+    transform: translateX(-50%);
+}
+
+/* Add this CSS to your style.css or a new CSS file */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff; /* Set the background color to match your design */
+    z-index: 1000; /* Adjust the z-index to ensure it's above other elements if needed */
+    border-bottom: 1px solid #ddd; /* Add a border at the bottom if desired */
+}
+/* Add this CSS to your style.css or a new CSS file */
+/* style.css */
+.bg-image.img2.parallax {
+    background-image: url('\static\images\.img2.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.fa {
+    display: inline-block;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* GitHub */
+  .fa-github {
+    background: #6CC644;
+    color: white;
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    background: #E4405F;
+    color: white;
+  }
+
+  /* LinkedIn */
+  .fa-linkedin {
+    background: #0077B5;
+    color: white;
+  }
+

@@ -1,0 +1,44 @@
+/* Style for the team members section */
+.team-member {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the team member images */
+.team-member img {
+    width: 100px; 
+    height: 100px; 
+    margin: 10px;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+  }
+
+/* Style for the team member names */
+.team-member p {
+    margin-top: 10px; /* Add space below the avatar image */
+    font-weight: bold; /* You can adjust the font styles as needed */
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 5px 0;
+  /*padding-top: 1px;  Add top padding */
+  /*padding-bottom: 1px; Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.python {width: 60%; background-color: #C8A2C8;} /* Dark Grey */
+

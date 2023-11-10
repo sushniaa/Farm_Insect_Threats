@@ -1,0 +1,20 @@
+.bg-image {
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("/static/images/img1.jpg"); }
+.img2 { background-image: url("/static/images/img2.jpg"); }
+.img3 { background-image: url("/static/images/img3.jpg"); }
+.img4 { background-image: url("/static/images/img4.jpg"); }
+.img5 { background-image: url("/static/images/img5.jpg"); }
+.img6 { background-image: url("/static/images/img6.png"); }
+.img7 { background-image: url("/static/images/img7.jpeg"); }
+
+  

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT THE PROJECT</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bg.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Agriculture AI</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    <!--a class="nav-link" href="index.html">Home</a-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('predict') }}">Identify</a>
+                    <!--a class="nav-link" href="prediction.html">Identify</a-->
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    <!--a class="nav-link" href="about.html">About</a-->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div id="about" class="container mt-5">
+        <h2>About Our Project</h2>
+        <p>The project is dedicated to harnessing cutting-edge AI technologies for the prediction and effective management of insect threats in agriculture. We recognize the critical significance of early detection and proactive prevention to safeguard crops, ensure food production, and maintain agricultural sustainability. Our mission is to empower farmers and agricultural stakeholders with the tools and knowledge to protect their crops and livelihoods, while simultaneously reducing the environmental and emotional impact of pest infestations.</p>
+        <p>In today's rapidly evolving world, agriculture faces multifaceted challenges. The dynamic nature of insect threats demands adaptive and sophisticated solutions. Our project is driven by the following principles and aspirations:</p>
+        <ul>
+            <li>
+                <strong>Advanced AI Technologies:</strong> We employ state-of-the-art artificial intelligence to provide accurate, real-time insect threat detection. Our AI models are trained to recognize a wide range of insect species and their behaviors, enabling early intervention.
+            </li>
+            <li>
+                <strong>Empowerment:</strong> We empower farmers and stakeholders with actionable insights. By delivering timely information, we enable informed decision-making and pest management strategies.
+            </li>
+            <li>
+                <strong>Sustainability:</strong> Sustainability is at the heart of our project. We understand that the balance between protecting crops and the environment is crucial. Our solution promotes eco-friendly pest control methods.
+            </li>
+        </ul>
+        <!--h2>About Our Project</h2>
+        <p>The project focuses on using advanced AI technologies to predict and manage insect threats in agriculture. It emphasizes the importance of early detection and prevention to safeguard crops and ensure food production. Farmers and agricultural stakeholders are driven by a desire for effective solutions, a commitment to sustainability, and a sense of community collaboration in their efforts to protect crops and livelihoods while reducing the environmental and emotional impact of pest infestations.</p-->
+    
+
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">80%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="container">
+            <div class="skills js">65%</div>
+        </div>
+        <p>Python</p>
+        <div class="container">
+            <div class="skills python">70%</div>
+        </div>
+
+        
+        <h2>Our Team</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/sushmetha-sr/">
+                        <img src="{{ url_for('static', filename='images/sush.jpg') }}" alt="Team Member 1" class="rounded-circle">
+                        <p>Sushmetha S R</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/shuvam-j-808529248/">
+                        <img src="{{ url_for('static', filename='images/shuvam.jpeg') }}" alt="Team Member 2" class="rounded-circle">
+                        <p>Shuvam Jena</p>
+                    </a>
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/raghav-selvakumar-356663258/">
+                        <img src="{{ url_for('static', filename='images/raghav.jpg') }}" alt="Team Member 3" class="rounded-circle">
+                        <p>Raghav S</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/krithisha-gaddam-320a45221/">
+                        <img src="{{ url_for('static', filename='images/krithi.jpeg') }}" alt="Team Member 4" class="rounded-circle">
+                        <p>Krithisha Gaddam</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+

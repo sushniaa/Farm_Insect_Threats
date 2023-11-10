@@ -1,0 +1,35 @@
+.img1 {
+    background-image: url('img1.jpg');
+}
+
+.img2 {
+    background-image: url('img2.jpg');
+}
+
+.img3 {
+    background-image: url('\static\images\img3.jpg');
+}
+
+.img4 {
+    background-image: url('\static\images\img4.jpg');
+}
+
+.img5 {
+    background-image: url('\static\images\img5.jpg');
+}
+
+.img6 {
+    background-image: url('img6.png');
+}
+
+.img7 {
+    background-image: url('\static\images\img7.jpeg');
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
