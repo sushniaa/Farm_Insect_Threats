@@ -37,8 +37,10 @@
   color: white; /* White text color */
 }
 
-.html {width: 52.7%; background-color: #04AA6D;} /* Green */
-.css {width: 24.0%; background-color: #2196F3;} /* Blue */
-.js {width: 9.4%; background-color: #f44336;} /* Red */
-.python {width: 13.9%; background-color: #C8A2C8;} /* Dark Grey */
+.html {width: 10%; background-color: #04AA6D;} /* Green */
+.css {width: 8%; background-color: #2196F3;} /* Blue */
+.js {width: 2%; background-color: #f44336;} /* Red */
+.python {width: 80%; background-color: #C8A2C8;} /* Dark Grey */
+
+
 
